@@ -1,0 +1,1 @@
+This is a simple forked/modified .css file for vencord/betterdiscord/any discord modifer that allows custom css themes, its a retro style theme, it should work with dark and light mode and yeah thats about it from me! bye have a good discord life. I doubt anyones here though.
