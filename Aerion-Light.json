@@ -1,108 +1,49 @@
-/**
- * @name Aerion Light
- * @author Neo/GPT/Jelle
- * @credits Marda33, DTM
- * @version Auto Update
- * @description A complete skeuomorphic overhaul for Discord.
- * @website https://github.com/Marda33/SkeuoCord
- * @source https://marda33.github.io/SkeuoCord/updates/SkeuoCordBase.css
-*/ 
-
-@import url("https://marda33.github.io/SkeuoCord/updates/SkeuoCordBase.css");
-/*replace SkeuoCordBase with SkeuoCord_BGImport to use custom BG image*/
-/*replace SkeuoCordBase with SkeuoCord_BGImport_ExtTransp to use custom BG image with more transparency*/
-/*replace SkeuoCordBase with SkeuoCord_Recolor to change default blue accent color with your own, SkeuoCord_Recolor_CustomBG for recolor+custom BG*/
-
-:root {
-    /*User Avatar Border Radius Values*/
-    --maskradius: 2px;
-    --avatarradius: 3px;
-    --smallavatarradius: 2px;
-    --medavatarradius: 4px;
-    --largeavatarradius: 5px;
-    
-    /*User Avatar Border Values*/
-    --smallborder_dark: 2px solid rgba(152,152,153);
-    --smallborder_light: 2px solid rgba(82,82,83);
-    --chatborder_dark: 0 0 0 2px rgba(230,230,230,0.6), 0 0 4px 4px rgba(0,0,0,0.5);
-    --chatborder_light: 0 0 0 2px rgba(60,60,60,0.8), 0 0 4px 4px rgba(0,0,0,0.27);
-    --medborder_dark: 0 0 0 3px rgba(230,230,230,0.6), 0 0 4px 4px rgba(0,0,0,0.6);
-    --medborder_light: 0 0 0 3px rgba(60,60,60,0.8), 0 0 4px 4px rgba(0,0,0,0.27);
-    --largeborder_dark: 0 0 0 4px rgba(230,230,230,0.6), 0 0 5px 5px rgba(0,0,0,0.6);
-    --largeborder_light: 0 0 0 4px rgba(60,60,60,0.8), 0 0 5px 5px rgba(0,0,0,0.27);
-    
-    /* UI Gradients */
-    --header_dark_top: rgb(58,58,58);
-    --header_dark_bottom: rgb(0,0,0);
-    --header_light_top: rgb(228,228,228);
-    --header_light_bottom: rgb(174,174,174);
-    --toolbar_dark_top: rgb(88,88,88);
-    --toolbar_dark_bottom: rgb(29,29,29);
-    --toolbar_light_top: rgb(211,211,211);
-    --toolbar_light_bottom: rgb(154,154,154);
-    
-    /* Backgrounds */
-    --mainbg_dark_top: hsl(210, 7.7%, 5.1%);
-    --mainbg_dark_bottom: hsl(216, 5.7%, 17.1%);
-    --mainbg_light_top: hsl(45, 4.8%, 83.5%);
-    --mainbg_light_bottom: hsl(40, 5.7%, 89.6%);
-    --listbg_dark_top: hsl(240, 3.7%, 10.6%);
-    --listbg_dark_bottom: hsl(225, 8.0%, 19.6%);
-    --listbg_light_top: hsl(48, 3.4%, 70.8%);
-    --listbg_light_bottom: hsl(43, 8.6%, 84.1%);
-    --sidebar_dark_top: hsl(223, 7.5%, 18.2%);
-    --sidebar_dark_bottom: hsl(210, 4.0%, 9.8%);
-    --sidebar_light_top: hsl(43, 11.5%, 88.0%);
-    --sidebar_light_bottom: hsl(60, 4.3%, 77.1%);
-    
-    /* Transparency Adjustments */
-    --maintransp_dark_top: 12,13,14;
-    --maintransp_dark_bottom: 41,43,46;
-    --maintransp_light_top: 215,214,211;
-    --maintransp_light_bottom: 230,229,227;
-    --chattransp_dark_top: 54,57,63;
-    --chattransp_dark_bottom: 41,43,46;
-    --chattransp_light_top: 227,226,225;
-    --chattransp_light_bottom: 201,198,192;
-    --listtransp_dark_top: 26,26,28;
-    --listtransp_dark_bottom: 46,48,54;
-    --listtransp_light_top: 183,182,178;
-    --listtransp_light_bottom: 218,216,211;
-    --sidebartransp_dark_top: 43,45,50;
-    --sidebartransp_dark_bottom: 24,25,26;
-    --sidebartransp_light_top: 228,226,221;
-    --sidebartransp_light_bottom: 199,199,194;
-}
-
-/* Move the user panel icons closer to the avatar and hide text */
-.container-1zzFcN {
-    justify-content: center;
-}
-
-.container-1zzFcN .nameTag-2Nl3ep,
-.container-1zzFcN .subtext-2HDqJ7 {
-    display: none;
-}
-
-.container-1zzFcN .buttons-3JBrkn {
-    margin-left: -20px;
-}
-
-/* Move the settings, mute, and deafen icons to the left */
-.header-2IhSSe {
-    display: flex;
-    justify-content: flex-start;
-}
-
-.header-2IhSSe .settings-3s4J5T,
-.header-2IhSSe .mute-3xLjZp,
-.header-2IhSSe .deafen-2oPZtN {
-    margin-left: 10px;  /* Adjust the margin to your liking */
-}
-
-/* Make the exit button red */
-.exitButton-1kHi9T {
-    color: red !important;
-    background-color: transparent !important;
-    border: none !important;
+{
+  "name": "Aerion Light",
+  "author": "jellers (ported by User)",
+  "description": "Aerion Light theme adapted for BunnyTweak (Discord Mobile Mod)",
+  "version": "1.0.0",
+  "theme": {
+    "import": "https://raw.githubusercontent.com/jellers/aerion-light/main/aerion-light.css",
+    "overrides": {
+      "--background-primary": "#f9f9f9",
+      "--background-secondary": "#ffffff",
+      "--background-tertiary": "#f0f0f0",
+      "--text-normal": "#222222",
+      "--text-muted": "#555555",
+      "--text-link": "#007bff",
+      "--channeltextarea-background": "#ffffff",
+      "--input-background": "#ffffff"
+    },
+    "styles": {
+      ".navBar-31-Xv5": {
+        "background": "var(--background-primary)",
+        "border-bottom": "1px solid var(--background-tertiary)"
+      },
+      ".sidebar-2K8pFh": {
+        "background": "var(--background-secondary)"
+      },
+      ".message-2qnXI6": {
+        "background": "var(--background-secondary)",
+        "border-radius": "8px",
+        "padding": "6px 10px"
+      },
+      ".mention": {
+        "background": "rgba(0, 123, 255, 0.1)",
+        "color": "var(--text-link)"
+      },
+      ".textArea-2CLwUE": {
+        "background": "var(--input-background)",
+        "border-radius": "8px",
+        "padding": "8px"
+      },
+      ".button-38aScr": {
+        "background": "var(--background-tertiary)",
+        "border-radius": "6px"
+      },
+      ".button-38aScr:hover": {
+        "background": "rgba(0, 123, 255, 0.2)"
+      }
+    }
+  }
 }
