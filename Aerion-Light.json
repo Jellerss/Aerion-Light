@@ -1,11 +1,18 @@
 {
-  "name": "Test Theme",
-  "author": "User",
-  "version": "1.0",
+  "name": "Aerion Light",
+  "author": "jellers (ported by User)",
+  "version": "1.0.0",
   "theme": {
     "variables": {
-      "background-primary": "#ff0000",
-      "text-normal": "#00ff00"
-    }
+      "background-primary": "#f9f9f9",
+      "background-secondary": "#ffffff",
+      "background-tertiary": "#f0f0f0",
+      "text-normal": "#222222",
+      "text-muted": "#555555",
+      "text-link": "#007bff",
+      "channeltextarea-background": "#ffffff",
+      "input-background": "#ffffff"
+    },
+    "import": "https://raw.githubusercontent.com/jellers/aerion-light/main/aerion-light.css"
   }
 }
