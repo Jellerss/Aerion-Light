@@ -3,47 +3,16 @@
   "author": "jellers (ported by User)",
   "description": "Aerion Light theme adapted for BunnyTweak (Discord Mobile Mod)",
   "version": "1.0.0",
-  "theme": {
-    "import": "https://raw.githubusercontent.com/jellers/aerion-light/main/aerion-light.css",
-    "overrides": {
-      "--background-primary": "#f9f9f9",
-      "--background-secondary": "#ffffff",
-      "--background-tertiary": "#f0f0f0",
-      "--text-normal": "#222222",
-      "--text-muted": "#555555",
-      "--text-link": "#007bff",
-      "--channeltextarea-background": "#ffffff",
-      "--input-background": "#ffffff"
-    },
-    "styles": {
-      ".navBar-31-Xv5": {
-        "background": "var(--background-primary)",
-        "border-bottom": "1px solid var(--background-tertiary)"
-      },
-      ".sidebar-2K8pFh": {
-        "background": "var(--background-secondary)"
-      },
-      ".message-2qnXI6": {
-        "background": "var(--background-secondary)",
-        "border-radius": "8px",
-        "padding": "6px 10px"
-      },
-      ".mention": {
-        "background": "rgba(0, 123, 255, 0.1)",
-        "color": "var(--text-link)"
-      },
-      ".textArea-2CLwUE": {
-        "background": "var(--input-background)",
-        "border-radius": "8px",
-        "padding": "8px"
-      },
-      ".button-38aScr": {
-        "background": "var(--background-tertiary)",
-        "border-radius": "6px"
-      },
-      ".button-38aScr:hover": {
-        "background": "rgba(0, 123, 255, 0.2)"
-      }
-    }
+  "import": "https://raw.githubusercontent.com/jellers/aerion-light/main/aerion-light.css",
+  "overrides": {
+    "--background-primary": "#f9f9f9",
+    "--background-secondary": "#ffffff",
+    "--background-tertiary": "#f0f0f0",
+    "--text-normal": "#222222",
+    "--text-muted": "#555555",
+    "--text-link": "#007bff",
+    "--channeltextarea-background": "#ffffff",
+    "--input-background": "#ffffff"
   }
 }
+
